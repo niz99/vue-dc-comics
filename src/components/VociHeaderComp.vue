@@ -43,8 +43,8 @@ export default {
         color: black;
         
         &:hover{
-            color: blue;
-            border-bottom: 2px inset blue;
+            color: #0d6af9;
+            border-bottom: 2px inset #0d6af9;
             padding-bottom: 10px;
         }
     }
