@@ -3,21 +3,24 @@
     <HeaderComp/>
     <ContentComp/>
     <IconComp/>
+    <FooterComp/>
   </div>
 </template>
 
 <script>
-import ContentComp from './components/ContentComp.vue'
-import HeaderComp from './components/HeaderComp.vue'
-import IconComp from './components/IconComp.vue'
 
+import HeaderComp from './components/HeaderComp.vue'
+import ContentComp from './components/ContentComp.vue'
+import IconComp from './components/IconComp.vue'
+import FooterComp from './components/FooterComp.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
     ContentComp,
-    IconComp
+    IconComp,
+    FooterComp
   }
 }
 </script>
