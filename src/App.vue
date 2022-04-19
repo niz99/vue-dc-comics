@@ -4,6 +4,7 @@
     <ContentComp/>
     <IconComp/>
     <FooterComp/>
+    <SignupComp/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HeaderComp from './components/HeaderComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import IconComp from './components/IconComp.vue'
 import FooterComp from './components/FooterComp.vue'
+import SignupComp from './components/SignupComp.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     HeaderComp,
     ContentComp,
     IconComp,
-    FooterComp
+    FooterComp,
+    SignupComp
   }
 }
 </script>
