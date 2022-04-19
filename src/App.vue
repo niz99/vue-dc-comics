@@ -2,18 +2,22 @@
   <div id="app">
     <HeaderComp/>
     <ContentComp/>
+    <IconComp/>
   </div>
 </template>
 
 <script>
 import ContentComp from './components/ContentComp.vue'
 import HeaderComp from './components/HeaderComp.vue'
+import IconComp from './components/IconComp.vue'
+
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    ContentComp
+    ContentComp,
+    IconComp
   }
 }
 </script>
