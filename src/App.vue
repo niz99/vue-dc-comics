@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
+    <JumbotronComp/>
     <ContentComp/>
     <IconComp/>
     <FooterComp/>
@@ -11,15 +12,18 @@
 <script>
 
 import HeaderComp from './components/HeaderComp.vue'
+import JumbotronComp from './components/JumbotronComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import IconComp from './components/IconComp.vue'
 import FooterComp from './components/FooterComp.vue'
 import SignupComp from './components/SignupComp.vue'
 
+
 export default {
   name: 'App',
   components: {
     HeaderComp,
+    JumbotronComp,
     ContentComp,
     IconComp,
     FooterComp,
